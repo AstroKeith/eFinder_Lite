@@ -262,7 +262,7 @@ def solveImage(img):
     print ('J2000',coordinates.hh2dms(ra/15),coordinates.dd2aligndms(dec))
     ra,dec = coordinates.precess(ra,dec)
     if keep:
-        txt = "Peak = "+ str(np.max(np_image)) + "   Stars = "+ str(int(centroids.size)) + "    Exp = "+str(param['Exposure'])+ 's.   Gain = ' + str(param["Gain"])
+        txt = "Peak = "+ str(np.max(np_image)) + "   Stars = "+ str(len(centroids)) + "    Exp = "+str(param['Exposure'])+ 's.   Gain = ' + str(param["Gain"])
         saveImage(img,txt)
     radec = ('%6.4f %+6.4f' % (ra,dec))
     solved_radec = ra,dec
