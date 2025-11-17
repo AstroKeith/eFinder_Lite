@@ -16,6 +16,7 @@ sudo cp cedar-detect-server Solver
 sudo wget https://github.com/astrokeith/efinder_lite/raw/main/Solver/eFinder_mini.py
 sudo cp eFinder_mini.py Solver
 
+sudo rm -rf tetra*
 sudo rm -rf venv-efinder/lib/python3.11/site-packages/tetra*
 sudo wget https://github.com/astrokeith/efinder_lite/raw/main/tetra3.zip
 unzip tetra3.zip
