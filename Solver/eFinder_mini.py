@@ -283,7 +283,7 @@ def saveImage(array,txt):
     img2 = ImageOps.expand(img2,border=5,fill='red')
     img2 = img2.save('/home/efinder/Solver/images/capture.jpg')
     print ('save %5.3f secs' % (time.time()-start))
-    if frame > 100:
+    if frame > 1000:
         keep = False
         frame = 0
 
