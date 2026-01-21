@@ -1,9 +1,9 @@
 #!/bin/sh
-'''
-This script adds Cedar detect capabilities to an eFinder-Lite
-Cedar is subject to a restrictive licence, a copy of which is in the repo
-as Cedar LICENSE.md. Ensure your use is compliant
-'''
+
+# This script adds Cedar detect capabilities to an eFinder-Lite
+# Cedar is subject to a restrictive licence, a copy of which is in the repo
+# as CedarLICENSE.md. Ensure your use is compliant
+
 echo "eFinder Mini update"
 echo " "
 echo "*****************************************************************************"
