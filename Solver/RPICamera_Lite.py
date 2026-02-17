@@ -17,7 +17,7 @@ class RPICamera(CameraInterface):
         self.handpad = handpad
         self.camType = "RPI"
         self.picam2 = Picamera2()
-        self.camera_config = self.picam2.create_still_configuration({"size":(960,760)},buffer_count=2)
+        self.camera_config = self.picam2.create_still_configuration(main={"size":(960,760),"format":"YUV420"},sensor={"output_size":(2028,1520)},buffer_count=2)
         self.picam2.configure(self.camera_config)
         
         
