@@ -275,7 +275,7 @@ def saveImage(array,txt):
     start = time.time()
     img = Image.fromarray(array)
     img2 = ImageEnhance.Contrast(img).enhance(5)
-    #img2 = img2.rotate(angle=180)
+    img2 = img2.rotate(angle=180)
     img3 = ImageDraw.Draw(img2)
     txt = txt + "      Frame " + str(frame)
     print(txt)
