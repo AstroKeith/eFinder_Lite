@@ -248,7 +248,7 @@ def measure_offset():
                     break       
     handpad.display(arr[0,2][0], arr[0,2][1], name + ', HIP ' + hipId)
     offset_flag = False
-    solveImage()
+    
 
 def up_down(v):
     global x
